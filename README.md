@@ -1,4 +1,4 @@
-# media-bandtec-kotlin
+# média-bandtec-kotlin
 Projeto individual da Continuada 1
 
 Questão única: Crie um app Android o qual:
