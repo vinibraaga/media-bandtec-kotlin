@@ -1,7 +1,7 @@
 # media-bandtec-kotlin
-*Projeto individual da Continuada 1
+Projeto individual da Continuada 1
 
-*Questão única: Crie um app Android o qual:
+Questão única: Crie um app Android o qual:
 
 a) Tenha pelo menos 3 campos para que o usuário digite valores. Um deve receber valores alfanuméricos, e os outros 2, apenas valores numéricos. Os demais campos, caso crie, podem receber os valores que julgar necessário. Esses campos serão usados para fazer um processo qualquer (ex: cálculo de IMC - agora não pode mais fazer esse)
 
