@@ -19,7 +19,13 @@ class MainActivity : AppCompatActivity() {
         val continuada3 = nota3.text.toString().toInt()
         val resultadoFinal = (continuada1 + continuada2 + continuada3) / 3
 
-        if (resultadoFinal < 5){
+        if (continuada1 > 10 || continuada2 > 10 || continuada3 > 10){
+            resultado.visibility = View.VISIBLE
+            resultado.setTextColor(Color.RED)
+            resultado.text = "Verifique se todos os campos de nota estão entre 0 e 10"
+        }
+
+        else if (resultadoFinal < 5){
             resultado.visibility = View.VISIBLE
             resultado.setTextColor(Color.RED)
             resultado.text = "Vish ${ nomeAluno} sua média foi a baixo da média: ${resultadoFinal}"
