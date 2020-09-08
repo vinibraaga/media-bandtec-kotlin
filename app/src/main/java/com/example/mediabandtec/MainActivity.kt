@@ -28,13 +28,13 @@ class MainActivity : AppCompatActivity() {
         else if (resultadoFinal < 5){
             resultado.visibility = View.VISIBLE
             resultado.setTextColor(Color.RED)
-            resultado.text = "Vish ${ nomeAluno} sua média foi a baixo da média: ${resultadoFinal}"
+            resultado.text = "Vish, ${ nomeAluno} você foi abaixo da média: ${resultadoFinal}"
 
         }
         else if (resultadoFinal < 8) {
             resultado.visibility = View.VISIBLE
             resultado.setTextColor(Color.BLUE)
-            resultado.text = "Parabéns ${ nomeAluno } você está na média: ${resultadoFinal}"
+            resultado.text = "Parabéns, ${ nomeAluno } você está na média: ${resultadoFinal}"
         }
 
         else if (resultadoFinal <= 10 ) {
@@ -46,7 +46,7 @@ class MainActivity : AppCompatActivity() {
         else {
             resultado.visibility = View.VISIBLE
             resultado.setTextColor(Color.BLACK)
-            resultado.text = "Vishi ${ nomeAluno }, parece que colocou alguma nota errada, verifique!"
+            resultado.text = "Vishi, ${ nomeAluno } parece que colocou alguma nota errada, verifique!"
         }
 
 
